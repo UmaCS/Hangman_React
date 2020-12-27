@@ -2,7 +2,6 @@
   width: 400px;
   color: black;
   text-align: center;
-  zoom: 1.3;
 }
 
 .Hangman img {
@@ -14,7 +13,7 @@
 .Hangman h1 {
   font-size: 4rem;
   font-weight: 100;
-  margin-bottom: 0.1em;
+  margin-bottom: 0.25em;
   margin-top: 0;
 }
 
@@ -56,3 +55,12 @@
   color: #eeeeee;
   box-shadow: 0 6px #9e9e9e;
 }
+ #Hangman-restart-btn {
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ #Hangman-restart-btn:hover {
+   color: black;
+ }
